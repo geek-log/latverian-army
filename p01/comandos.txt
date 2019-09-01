@@ -1,0 +1,7 @@
+# Ejecutar en bash.
+sudo apt purge -y ansible
+sudo python3 -m install ansible
+ansible --version
+ansible localhost -m ping
+ansible localhost -m setup
+ansible localhost -m setup  -a "filter=ansible_architecture"
