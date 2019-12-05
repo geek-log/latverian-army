@@ -1,0 +1,20 @@
+---
+- name: First Playbook.
+  hosts: localhost
+  connection: local
+  gather_facts: false
+
+  tasks:
+  - name: Say my name.
+    debug:
+      msg: 'I am Doom'
+
+  - name: Crear doom.txt.
+    file:
+      path: ~/doom.txt
+      state: touch
+
+  - name: Agregar texto a doom.txt
+    lineinfile:
+      path: ~/doom.txt
+      line: 'Yo soy Doom'
