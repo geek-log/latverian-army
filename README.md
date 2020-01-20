@@ -1,6 +1,6 @@
 # latverian army
 
-Configuración para mil robots de .. Doom!!!
+Configuración para mil robots de ... Doom!!!
 
 ![Latverian Army](img/latverian_army.png)
 
