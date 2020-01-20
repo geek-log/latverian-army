@@ -9,3 +9,7 @@ Ejemplos para el tutorial - [Doom Presenta: Ansible desde cero](https://geekl0g.
 - [Código en Github](https://github.com/geek-log/latverian-army)
 
 - [Código en Gitlab](https://gitlab.com/geek.log/latverian-army)
+
+The Travelling Vaudeville Villain
+
+![author](img/author.png)
